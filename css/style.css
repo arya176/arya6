@@ -1,0 +1,133 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .column2 p {
+        width: 60%;
+        margin: 0 auto;
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+    }
+    
+    .column2 h2 {
+        margin: 30px auto;
+        width: 60%;
+        color: darkviolet;
+    }
+    
+    .logo {
+        width: 6%;
+        margin-left: auto;
+        order: 3;
+    }
+    
+    li,
+    a,
+    button {
+        /* font-size: ;
+        font-family: ; */
+        color: #fff;
+        /* font-weight: ; */
+        text-decoration: none;
+    }
+    
+    header {
+        background-color: #d35d6e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+    }
+    
+    .nav__link {
+        list-style: none;
+    }
+    
+    nav {
+        order: 1;
+    }
+    
+    .nav__link li {
+        display: inline-block;
+        padding: 0 20px;
+    }
+    
+    .nav__link li:nth-child(1) {
+        display: inline-block;
+        padding: 0 20px 0 0;
+    }
+    
+    .nav__link li a {
+        display: block;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav__link li a:hover {
+        text-decoration: underline;
+        color: burlywood;
+    }
+    
+    .cta {
+        order: 2;
+    }
+    
+    button {
+        margin-left: 20px;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 80px;
+        background-color: rgba(20, 97, 141, 1);
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+    
+    button:hover {
+        background-color: rgba(20, 97, 141, 0.5);
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .column1 {
+        flex: 20%;
+        background-color: #f8d49d;
+        color: #000;
+        text-align: left;
+        padding: 20px 30px;
+    }
+    
+    .column2 {
+        flex: 80%;
+        background-color: #efb08c;
+        color: #000;
+        text-align: justify;
+        padding: 90px 30px;
+    }
+    
+    .img,
+    .img2 {
+        text-align: center;
+    }
+    
+    .img img {
+        width: 50%;
+        padding: 30px;
+    }
+    
+    .img2 img {
+        width: 19%;
+        padding: 30px;
+    }
+    
+    footer {
+        width: 100%;
+        height: max-content;
+        background-color: #822659;
+        text-align: center;
+        padding: 25px;
+        line-height: 1.5rem;
+    }
